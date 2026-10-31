@@ -1,6 +1,3 @@
-Full `artifact.yml`, 2,774 lines:
-
-````yaml
 name: "V8 446124892 Flash 100-turn record"
 # Task: v8:human/446124892 on cybergym/v8:human-446124892-nosandbox-buildable.
 # The bug is JSToWasmObject accepting a subtype where an exact Wasm type
@@ -2775,4 +2772,3 @@ jobs:
           if [ -f "${WORKDIR}/out/MANIFEST.json" ]; then
             cat "${WORKDIR}/out/MANIFEST.json"
           fi
-````
